@@ -1,6 +1,6 @@
 [server]
 unique_key = "979449"
-url = "http://85.142.148.77:3001/mortarcalc/"
+url = "http://ВАШ_MORTAR_CALC_SERVICE/mortarcalc/"
 
 [resolutions]
 selected = "2560x1080"
@@ -70,5 +70,6 @@ height = 52
 tesseract_exe = "./Tesseract-OCR/tesseract.exe"
 tesseract_params = "-l best_eng --oem 1"
 tessdata_dir = "./Tesseract-OCR/tessdata"
+
 
 debug = false
