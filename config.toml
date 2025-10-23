@@ -1,0 +1,74 @@
+[server]
+unique_key = "979449"
+url = "http://85.142.148.77:3001/mortarcalc/"
+
+[resolutions]
+selected = "2560x1080"
+monitor = -1
+
+[resolutions.2560x1080]
+top = 0
+left = 518
+width = 460
+height = 76
+
+[resolutions.1920x1080]
+top = 0
+left = 518
+width = 466
+height = 76
+
+[resolutions.1680x1050]
+top = 0
+left = 512
+width = 450
+height = 76
+
+[resolutions.1600x1024]
+top = 0
+left = 490
+width = 425
+height = 76
+
+[resolutions.1600x900]
+top = 0
+left = 428
+width = 362
+height = 66
+
+[resolutions.1366x768]
+top = 0
+left = 360
+width = 325
+height = 55
+
+[resolutions.1360x768]
+top = 0
+left = 360
+width = 325
+height = 55
+
+[resolutions.1280x800]
+top = 0
+left = 376
+width = 345
+height = 55
+
+[resolutions.1280x768]
+top = 0
+left = 360
+width = 325
+height = 55
+
+[resolutions.1280x720]
+top = 0
+left = 337
+width = 325
+height = 52
+
+[program]
+tesseract_exe = "./Tesseract-OCR/tesseract.exe"
+tesseract_params = "-l best_eng --oem 1"
+tessdata_dir = "./Tesseract-OCR/tessdata"
+
+debug = false
